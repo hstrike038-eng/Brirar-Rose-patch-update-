@@ -1,25 +1,13 @@
 # Brirar-Rose-patch-update-
 doom style spy x family fan game where yor fights added a throw mechanic and passive for yor is if she recevies damage she give double damages to her enemies 
-#include <stdio.h>
+A small fan-made 90s-style canvas FPS where Yor Forger fights through a mansion full of assassins.
 
-int main() {
-    int n;
-    int reversed = 0;
+Open index.html in a browser, press Start Run, then use:
 
-    // Read the input number
-    if (scanf("%d", &n) != 1) {
-        return 1;
-    }
+WASD or arrow keys to move
+Drag on the play area for camera turn, click once for mouse look, or use Q/E and arrow keys to turn
+Click or Space to strike with the gold stilettos
+Shift to sprint
+Thorn Drive is Yor's low-health passive: the more damage she takes, the harder her stiletto strikes hit, climbing from x1.0 to x3.0.
 
-    // Loop to reverse the digits
-    while (n > 0) {
-        int remainder = n % 10;          // Extract the last digit
-        reversed = reversed * 10 + remainder; // Append it to the reversed number
-        n /= 10;                         // Remove the last digit from n
-    }
-
-    // Print the reversed number
-    printf("%d\n", reversed);
-
-    return 0;
-}
+Defeat every assassin in the mansion and keep Yor standing.
